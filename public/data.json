@@ -1,111 +1,131 @@
 [
-   {
-     "id": 1,
-     "img": "https://i.ibb.co/Zf5PSR5/95ff2690119c7c9620e646e92e57f7c7.jpg",
-     "title": "Elegant Wedding Celebration",
-     "category": "Weddings",
-     "short_description": "A dream wedding brought to life.",
-     "detail_description": "Experience the wedding of your dreams with our exquisite wedding planning services. Our expert team will meticulously plan every detail of your special day. From selecting the perfect venue to designing stunning floral arrangements, we've got it all covered. Our wedding packages include a personalized plan, competitive pricing, and a range of features such as a dedicated wedding coordinator, gourmet catering, and more. Trust us to make your wedding day truly unforgettable.",
-     "price": "$15,000",
-     "features": [
-       "Dedicated Wedding Coordinator",
-       "Venue Selection and Decor",
-       "Floral Arrangements",
-       "Gourmet Catering",
-       "Photography and Videography",
-       "Live Entertainment"
-     ],
-     "best_opinion": "Our wedding was a fairytale come true, thanks to the incredible team at XYZ Events. From the moment we met them, we knew we were in good hands. They took care of every detail, and the result was beyond our wildest dreams. Our guests still can't stop raving about the beautiful decor, delicious food, and seamless organization. If you're planning a wedding, do yourself a favor and choose XYZ Events."
-   },
-   {
-     "id": 2,
-     "img": "https://i.ibb.co/7J9kDVp/Birthday-Party-Organisers.jpg",
-     "title": "Fun-Filled Birthday Bash",
-     "category": "Birthday Parties",
-     "short_description": "Celebrate your special day with a memorable birthday party.",
-     "detail_description": "Make your birthday a day to remember with our spectacular birthday party planning services. We specialize in creating unique and fun-filled celebrations for all ages. Our birthday packages include a personalized plan, affordable pricing, and a variety of features such as custom-themed decorations, entertainment options, and a mouthwatering cake. Let us take care of the party planning so you can enjoy your special day to the fullest.",
-     "price": "$1,000",
-     "features": [
-       "Themed Decorations",
-       "Entertainment Options",
-       "Custom Cake",
-       "Party Favors",
-       "Activities for All Ages",
-       "Photobooth"
-     ],
-     "best_opinion": "My birthday party organized by XYZ Events was an absolute blast! The decorations were amazing, and they really went the extra mile to ensure everyone had a great time. The entertainment was top-notch, and the custom cake was a work of art. I couldn't have asked for a better celebration."
-   },
-   {
-     "id": 3,
-     "img": "https://i.ibb.co/YLWq8jQ/815v-MEvf-U8-L-AC-SL1500.jpg",
-     "title": "Memorable Anniversary Dinner",
-     "category": "Anniversaries",
-     "short_description": "Celebrate your love story with a romantic anniversary dinner.",
-     "detail_description": "Reignite the romance with a beautifully planned anniversary dinner by XYZ Events. We specialize in creating intimate and memorable evenings for couples celebrating their love. Our anniversary packages include a personalized plan, reasonable pricing, and features like a private dining experience, candlelit ambiance, and a specially curated menu. Let us help you celebrate your love story in style.",
-     "price": "$500",
-     "features": [
-       "Private Dining Experience",
-       "Candlelit Ambiance",
-       "Specially Curated Menu",
-       "Personalized Service",
-       "Romantic Decor",
-       "Live Music"
-     ],
-     "best_opinion": "My husband and I celebrated our 10th anniversary with XYZ Events, and it was an unforgettable experience. The intimate setting, the delicious food, and the attentive service made it a night to remember. It felt like we were transported to a romantic paradise. I highly recommend their anniversary dinner services."
-   },
-   {
-     "id": 4,
-     "img": "https://i.ibb.co/NVk77C9/6ae203bf26b25f11407144a27c1a9276.jpg",
-     "title": "Engagement Extravaganza",
-     "category": "Engagement Parties",
-     "short_description": "Begin your journey to forever with an extravagant engagement party.",
-     "detail_description": "Start your engagement journey in style with our extravagant engagement party planning services. We specialize in creating memorable events that celebrate love and commitment. Our engagement packages include a personalized plan, competitive pricing, and features like stunning venue selection, engagement photo sessions, gourmet catering, and entertainment. Let us help you kickstart your forever together.",
-     "price": "$8,000",
-     "features": [
-       "Stunning Venue Selection",
-       "Engagement Photo Session",
-       "Gourmet Catering",
-       "Live Entertainment",
-       "Themed Decorations",
-       "Interactive Guest Activities"
-     ],
-     "best_opinion": "Our engagement party organized by XYZ Events was nothing short of spectacular. From the moment we walked in, we were blown away by the stunning decor and the attention to detail. The engagement photo session was a lovely touch, and the food was divine. We couldn't have asked for a better start to our journey to forever."
-   },
-   {
-     "id": 5,
-     "img": "https://i.ibb.co/4P2Kb4H/71z7s7-TGAk-L-AC-UL600-SR600-600.jpg",
-     "title": "Retirement Retreat",
-     "category": "Retirement Parties",
-     "short_description": "Celebrate a lifetime of achievements with a retirement retreat.",
-     "detail_description": "Bid farewell to your professional journey with a relaxing retirement retreat organized by XYZ Events. We specialize in creating stress-free retirement celebrations that allow you to unwind and reflect on your accomplishments. Our retirement packages include a personalized plan, reasonable pricing, and features like a scenic venue, spa treatments, gourmet dining, and recreational activities. Let us help you transition into retirement with ease.",
-     "price": "$3,500",
-     "features": [
-       "Scenic Venue",
-       "Spa Treatments",
-       "Gourmet Dining",
-       "Recreational Activities",
-       "Retirement Speeches",
-       "Memory Lane Exhibit"
-     ],
-     "best_opinion": "My retirement retreat organized by XYZ Events was the perfect way to say goodbye to my career. The venue was tranquil, and the spa treatments were a much-needed indulgence. The gourmet dining was exquisite, and the recreational activities were a blast. It was a retirement celebration I'll cherish forever."
-   },
-   {
-     "id": 6,
-     "img": "https://i.ibb.co/mFcQ0J0/Styled-Baby-Shower4-1200x.jpg",
-     "title": "Joyful Baby Shower",
-     "category": "Baby Showers",
-     "short_description": "Welcome the newest addition to your family with a joyful baby shower.",
-     "detail_description": "Celebrate the impending arrival of your little one with a joyful baby shower organized by XYZ Events. We specialize in creating heartwarming and memorable baby showers for expectant parents. Our baby shower packages include a personalized plan, affordable pricing, and features like adorable decorations, baby-themed games, a photo booth, and a scrumptious dessert table. Let us help you welcome your bundle of joy with love and laughter.",
-     "price": "$1,200",
-     "features": [
-       "Adorable Decorations",
-       "Baby-Themed Games",
-       "Photo Booth",
-       "Scrumptious Dessert Table",
-       "Gift Registry Assistance",
-       "Parenting Tips Workshop"
-     ],
-     "best_opinion": "Our baby shower organized by XYZ Events was a heartwarming experience. The decorations were adorable, and the baby-themed games were so much fun. The photo booth captured precious moments, and the dessert table was a delight. It was a day filled with joy and anticipation, thanks to XYZ Events."
-   }
- ]
- 
+  {
+  "id": 1,
+  "img": "https://i.ibb.co/Zf5PSR5/95ff2690119c7c9620e646e92e57f7c7.jpg",
+  "img2": "https://i.ibb.co/Wv23kjf/image00002.jpg",
+  "img3": "https://i.ibb.co/KLWjwrW/Blog-Cover-Pic-7.jpg",
+  "img4": "https://i.ibb.co/s62qM2Q/isa-sapphiregroup-270033673-1608257716187646-2802418457104604805-n.jpg",
+  "title": "Elegant Wedding Celebration",
+  "category": "Weddings",
+  "short_description": "A dream wedding brought to life.",
+  "detail_description": "Experience the wedding of your dreams with our exquisite wedding planning services. Our expert team will meticulously plan every detail of your special day. From selecting the perfect venue to designing stunning floral arrangements, we've got it all covered. Our wedding packages include a personalized plan, competitive pricing, and a range of features such as a dedicated wedding coordinator, gourmet catering, and more. Trust us to make your wedding day truly unforgettable.",
+  "price": "$15,000",
+  "features": [
+  "Dedicated Wedding Coordinator",
+  "Venue Selection and Decor",
+  "Floral Arrangements",
+  "Gourmet Catering",
+  "Photography and Videography",
+  "Live Entertainment"
+  ],
+  "best_opinion": "Our wedding was a fairytale come true, thanks to the incredible team at EliteEvent Planners. From the moment we met them, we knew we were in good hands. They took care of every detail, and the result was beyond our wildest dreams. Our guests still can't stop raving about the beautiful decor, delicious food, and seamless organization. If you're planning a wedding, do yourself a favor and choose EliteEvent Planners."
+  },
+  {
+  "id": 2,
+  "img": "https://i.ibb.co/7J9kDVp/Birthday-Party-Organisers.jpg",
+  "img2": "https://i.ibb.co/kgfsZyW/f94b01057c36fd00b83586df658b7766.jpg",
+  "img3": "https://i.ibb.co/Wphj5DY/decoration-20-x700.jpg",
+  "img4": "https://i.ibb.co/WPSm1dP/1641824439-large.jpg",
+  "title": "Fun-Filled Birthday Bash",
+  "category": "Birthday Parties",
+  "short_description": "Celebrate your special day with a memorable birthday party.",
+  "detail_description": "Make your birthday a day to remember with our spectacular birthday party planning services. We specialize in creating unique and fun-filled celebrations for all ages. Our birthday packages include a personalized plan, affordable pricing, and a variety of features such as custom-themed decorations, entertainment options, and a mouthwatering cake. Let us take care of the party planning so you can enjoy your special day to the fullest.",
+  "price": "$1,000",
+  "features": [
+  "Themed Decorations",
+  "Entertainment Options",
+  "Custom Cake",
+  "Party Favors",
+  "Activities for All Ages",
+  "Photobooth"
+  ],
+  "best_opinion": "My birthday party organized by EliteEvent Planners was an absolute blast! The decorations were amazing, and they really went the extra mile to ensure everyone had a great time. The entertainment was top-notch, and the custom cake was a work of art. I couldn't have asked for a better celebration."
+  },
+  {
+  "id": 3,
+  "img": "https://i.ibb.co/YLWq8jQ/815v-MEvf-U8-L-AC-SL1500.jpg",
+  "img2": "https://i.ibb.co/9pkFTfQ/20201001-183057.jpg",
+  "img3": "https://i.ibb.co/pXvTH5C/default-Logo.jpg",
+  "img4": "https://i.ibb.co/H7WmB4z/1676975773-anniversary-10.webp",
+  "title": "Memorable Anniversary Dinner",
+  "category": "Anniversaries",
+  "short_description": "Celebrate your love story with a romantic anniversary dinner.",
+  "detail_description": "Reignite the romance with a beautifully planned anniversary dinner by EliteEvent Planners. We specialize in creating intimate and memorable evenings for couples celebrating their love. Our anniversary packages include a personalized plan, reasonable pricing, and features like a private dining experience, candlelit ambiance, and a specially curated menu. Let us help you celebrate your love story in style.",
+  "price": "$500",
+  "features": [
+  "Private Dining Experience",
+  "Candlelit Ambiance",
+  "Specially Curated Menu",
+  "Personalized Service",
+  "Romantic Decor",
+  "Live Music"
+  ],
+  "best_opinion": "My husband and I celebrated our 10th anniversary with EliteEvent Planners, and it was an unforgettable experience. The intimate setting, the delicious food, and the attentive service made it a night to remember. It felt like we were transported to a romantic paradise. I highly recommend their anniversary dinner services."
+  },
+  {
+  "id": 4,
+  "img": "https://i.ibb.co/NVk77C9/6ae203bf26b25f11407144a27c1a9276.jpg",
+  "img2": "https://i.ibb.co/LPMntKk/8ed2e41d69cb80196defe8d1a315f3c3.jpg",
+  "img3": "https://i.ibb.co/PhS3YD5/maxresdefault.jpg",
+  "img4": "https://i.ibb.co/FBJkXb7/21-Lumiere-Events.jpg",
+  "title": "Engagement Extravaganza",
+  "category": "Engagement Parties",
+  "short_description": "Begin your journey to forever with an extravagant engagement party.",
+  "detail_description": "Start your engagement journey in style with our extravagant engagement party planning services. We specialize in creating memorable events that celebrate love and commitment. Our engagement packages include a personalized plan, competitive pricing, and features like stunning venue selection, engagement photo sessions, gourmet catering, and entertainment. Let us help you kickstart your forever together.",
+  "price": "$8,000",
+  "features": [
+  "Stunning Venue Selection",
+  "Engagement Photo Session",
+  "Gourmet Catering",
+  "Live Entertainment",
+  "Themed Decorations",
+  "Interactive Guest Activities"
+  ],
+  "best_opinion": "Our engagement party organized by EliteEvent Planners was nothing short of spectacular. From the moment we walked in, we were blown away by the stunning decor and the attention to detail. The engagement photo session was a lovely touch, and the food was divine. We couldn't have asked for a better start to our journey to forever."
+  },
+  {
+  "id": 5,
+  "img": "https://i.ibb.co/4P2Kb4H/71z7s7-TGAk-L-AC-UL600-SR600-600.jpg",
+  "img2": "https://i.ibb.co/7NRrknX/bellenza-retirement-themes.jpg",
+  "img3": "https://i.ibb.co/p3H98xw/81-I1kn-Vs-PMS-AC-SL1500-1.jpg",
+  "img4": "https://i.ibb.co/gwYGSqQ/Rustic-Vintage-21st-Birthday-Party-via-Karas-Party-Ideas-Karas-Party-Ideas-com15.jpg",
+  "title": "Retirement Retreat",
+  "category": "Retirement Parties",
+  "short_description": "Celebrate a lifetime of achievements with a retirement retreat.",
+  "detail_description": "Bid farewell to your professional journey with a relaxing retirement retreat organized by EliteEvent Planners. We specialize in creating stress-free retirement celebrations that allow you to unwind and reflect on your accomplishments. Our retirement packages include a personalized plan, reasonable pricing, and features like a scenic venue, spa treatments, gourmet dining, and recreational activities. Let us help you transition into retirement with ease.",
+  "price": "$3,500",
+  "features": [
+  "Scenic Venue",
+  "Spa Treatments",
+  "Gourmet Dining",
+  "Recreational Activities",
+  "Retirement Speeches",
+  "Memory Lane Exhibit"
+  ],
+  "best_opinion": "My retirement retreat organized by EliteEvent Planners was the perfect way to say goodbye to my career. The venue was tranquil, and the spa treatments were a much-needed indulgence. The gourmet dining was exquisite, and the recreational activities were a blast. It was a retirement celebration I'll cherish forever."
+  },
+  {
+  "id": 6,
+  "img": "https://i.ibb.co/mFcQ0J0/Styled-Baby-Shower4-1200x.jpg",
+  "img2": "https://i.ibb.co/1ZV9mwd/hd13.jpg",
+  "img3": "https://i.ibb.co/6vMDhYX/baby-shower-decorations-package-in-warje-pune-9881818803-500x500.jpg",
+  "img4": "https://i.ibb.co/dbL51pZ/baby-shower-themes-1300x-2x.png",
+  "title": "Joyful Baby Shower",
+  "category": "Baby Showers",
+  "short_description": "Welcome the newest addition to your family with a joyful baby shower.",
+  "detail_description": "Celebrate the impending arrival of your little one with a joyful baby shower organized by EliteEvent Planners. We specialize in creating heartwarming and memorable baby showers for expectant parents. Our baby shower packages include a personalized plan, affordable pricing, and features like adorable decorations, baby-themed games, a photo booth, and a scrumptious dessert table. Let us help you welcome your bundle of joy with love and laughter.",
+  "price": "$1,200",
+  "features": [
+  "Adorable Decorations",
+  "Baby-Themed Games",
+  "Photo Booth",
+  "Scrumptious Dessert Table",
+  "Gift Registry Assistance",
+  "Parenting Tips Workshop"
+  ],
+  "best_opinion": "Our baby shower organized by EliteEvent Planners was a heartwarming experience. The decorations were adorable, and the baby-themed games were so much fun. The photo booth captured precious moments, and the dessert table was a delight. It was a day filled with joy and anticipation, thanks to EliteEvent Planners."
+  }
+  ]
+  
+  
+  

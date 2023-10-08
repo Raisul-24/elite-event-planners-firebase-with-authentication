@@ -31,6 +31,13 @@ const Login = () => {
       // console.log("login")
       googleSignIn().then(result => {
          console.log(result.user);
+         Swal.fire({
+            position: 'top-center',
+            icon: 'success',
+            title: 'Login with Google Successfully!!',
+            showConfirmButton: false,
+            timer: 1500
+         })
          navigate(from, { replace: true });
       })
    }
@@ -39,7 +46,15 @@ const Login = () => {
          const credential = GithubAuthProvider.credentialFromResult(result);
          // eslint-disable-next-line no-unused-vars
          const token = credential.accessToken;
+         Swal.fire({
+            position: 'top-center',
+            icon: 'success',
+            title: 'Login with Github Successfully!!',
+            showConfirmButton: false,
+            timer: 1500
+         })
          // console.log(result.user);
+
          navigate(from, { replace: true });
       })
    }
@@ -53,7 +68,7 @@ const Login = () => {
             .then(result => {
                console.log(result.user);
                Swal.fire({
-                  position: 'top-senter',
+                  position: 'top-center',
                   icon: 'success',
                   title: 'Login Successfully!!',
                   showConfirmButton: false,

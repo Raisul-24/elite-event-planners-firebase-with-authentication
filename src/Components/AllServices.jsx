@@ -28,19 +28,19 @@ const AllServices = () => {
                <div>
                   <h2 className="text-3xl text-left font-extrabold text-fuchsia-500 pt-10">We Provide</h2>
                   <h3 className="md:text-lg lg:text-2xl font-bold text-purple-500 my-20" data-aos="fade-up"
-                     data-aos-duration="3000">* Wedding</h3>
+                     data-aos-duration="1000">Wedding</h3>
                   <h3 className="md:text-lg lg:text-2xl font-bold text-purple-500 my-20" data-aos="fade-up"
-                     data-aos-duration="3000">* Birthday Parties</h3>
+                     data-aos-duration="1000">Birthday Parties</h3>
                   <h3 className="md:text-lg lg:text-2xl font-bold text-purple-500 my-20" data-aos="fade-up"
-                     data-aos-duration="3000">* Anniversaries</h3>
+                     data-aos-duration="1000">Anniversaries</h3>
                   <h3 className="md:text-lg lg:text-2xl font-bold text-purple-500 my-20" data-aos="fade-up"
-                     data-aos-duration="3000">* Engagement Parties</h3>
+                     data-aos-duration="1000">Engagement Parties</h3>
                   <h3 className="md:text-lg lg:text-2xl font-bold text-purple-500 my-20" data-aos="fade-up"
-                     data-aos-anchor-placement="center-bottom">* Retirement Parties</h3>
+                     data-aos-anchor-placement="center-bottom">Retirement Parties</h3>
                   <h3 className="md:text-lg lg:text-2xl font-bold text-purple-500 my-20" data-aos="fade-up"
-                     data-aos-duration="3000">* Baby Showers</h3>
+                     data-aos-duration="1000">Baby Showers</h3>
                   <h3 className="md:text-lg lg:text-2xl font-bold text-purple-500 my-20" data-aos="fade-up"
-                     data-aos-duration="3000">* Any Event We can arrange</h3>
+                     data-aos-duration="1000">Any Event We can arrange</h3>
                </div>
                <div className="md:col-span-3 lg:col-span-3">
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-8 py-5"  data-aos="fade-up">

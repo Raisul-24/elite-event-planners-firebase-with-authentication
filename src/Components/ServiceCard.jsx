@@ -16,7 +16,8 @@ const ServiceCard = ({service}) => {
    }
    return (
       <div>
-         <div className="relative flex w-full max-w-[26rem] flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-lg">
+         <div 
+          className="relative flex w-full max-w-[26rem] flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-lg">
                <div className="relative mx-4 mt-4 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40">
                   <img
                      src={img} className="h-80 w-full"
@@ -76,7 +77,7 @@ const ServiceCard = ({service}) => {
                      data-ripple-light="true"
                   >
                      
-                        <NavLink to={`${user?.email ? `/service/${id}` : '/login' }`}>
+                        <NavLink to={`${user ? `/service/${id}` : '/login' }`}>
                         Show Details</NavLink> 
                       
                   
