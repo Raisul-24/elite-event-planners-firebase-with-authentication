@@ -5,8 +5,7 @@ import Footer from "../Components/Footer/Footer";
 
 const Route = () => {
    return (
-      <div className="font-poppins">
-         
+      <div className="font-poppins bg-white">
          <Outlet></Outlet>
          <Footer></Footer>
 

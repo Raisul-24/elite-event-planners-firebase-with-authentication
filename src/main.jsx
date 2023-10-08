@@ -13,29 +13,33 @@ import About from './Pages/About';
 import Gallery from './Pages/Gallery';
 import Contact from './Pages/Contact';
 import Login from './Components/Login/Login';
+import AuthProvider from './Components/Firebase/AuthProvider';
+import Register from './Components/Login/Register';
+import ShowDetails from './Components/ShowDetails';
+import PrivateRoute from './Components/PrivateRoute/PrivateRoute';
 
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Route></Route>,
-    errorElement:<ErrorPage></ErrorPage>,
+    errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
         path: "/",
-        element : <Home></Home>
+        element: <Home></Home>
       },
       {
         path: "/services",
-        element : <Services></Services>
+        element: <Services></Services>
       },
       {
-        path : "/about",
-        element : <About></About>
+        path: "/about",
+        element: <About></About>
       },
       {
         path: "gallery",
-        element : <Gallery></Gallery>
+        element: <Gallery></Gallery>
       },
       {
         path: "/contact",
@@ -44,14 +48,27 @@ const router = createBrowserRouter([
       {
         path: "/login",
         element: <Login></Login>
+      },
+      {
+        path: "/register",
+        element: <Register></Register>
+      },
+      {
+        path: "/service/:id",
+        element: (<PrivateRoute>
+          <ShowDetails></ShowDetails>
+        </PrivateRoute>),
+        loader: () => fetch("data.json"),
       }
-      
+
     ]
   },
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <AuthProvider>
+      <RouterProvider router={router} />
+    </AuthProvider>
   </React.StrictMode>,
 )

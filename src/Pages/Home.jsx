@@ -1,12 +1,22 @@
-// import Banner from "../Components/Header/Banner";
-import Navbar from "../Components/Header/Navbar";
 
+import Navbar from "../Components/Header/Navbar";
+import { useEffect } from "react";
+
+import AOS from "aos";
+import "aos/dist/aos.css";
+import AllServices from "../Components/AllServices";
 
 const Home = () => {
+   useEffect(() => {
+      AOS.init();
+      AOS.refresh();
+   }, []);
    return (
-      <div>
+      <div className="bg-white">
          <Navbar></Navbar>
-         home
+         <div>
+            <AllServices></AllServices>
+         </div>
       </div>
    );
 };
