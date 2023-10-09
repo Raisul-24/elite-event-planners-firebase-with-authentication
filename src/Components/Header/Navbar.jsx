@@ -12,22 +12,13 @@ const Navbar = () => {
    const handleLogOut = () => {
       logOut()
          .then()
-      Swal.fire({
-         title: 'Are you sure?',
-         text: "You won't be able to access this!",
-         icon: 'warning',
-         showCancelButton: true,
-         confirmButtonColor: '#3085d6',
-         cancelButtonColor: '#d33',
-         confirmButtonText: 'Yes, LogOut'
-      }).then((result) => {
-         if (result.isConfirmed) {
-            Swal.fire(
-               'LogOut!',
-               'success'
-            )
-         }
-      })
+         Swal.fire({
+            position: 'top-end',
+            icon: 'success',
+            title: 'LogOut Successfully',
+            showConfirmButton: false,
+            timer: 1500
+          })
    }
    const links = <>
       <li className="block p-1 text-sm  leading-normal text-inherit antialiased"><NavLink to="/">Home</NavLink></li>
