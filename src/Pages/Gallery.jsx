@@ -10,7 +10,7 @@ const Gallery = () => {
    return (
       <div>
          <NavbarTop></NavbarTop>
-         <div className="container mx-auto">
+         <div className="container mx-auto px-5">
             <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-5 mt-10">
                {
                   data.map(single =><SingleImage key={single.id} single={single}></SingleImage>)

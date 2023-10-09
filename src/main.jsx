@@ -31,7 +31,9 @@ const router = createBrowserRouter([
       },
       {
         path: "/services",
-        element: <Services></Services>
+        element: (<PrivateRoute>
+          <Services></Services>
+        </PrivateRoute>)
       },
       {
         path: "/about",
@@ -39,7 +41,7 @@ const router = createBrowserRouter([
       },
       {
         path: "gallery",
-        element: <Gallery></Gallery>,
+        element: (<PrivateRoute><Gallery></Gallery></PrivateRoute>),
         loader: () =>fetch('data.json'),
       },
       {

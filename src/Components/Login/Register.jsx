@@ -4,6 +4,7 @@ import NavbarTop from '../Header/NavbarTop';
 import { Link } from 'react-router-dom';
 import { AuthContext } from '../Firebase/AuthProvider';
 import { useState } from 'react';
+import Swal from 'sweetalert2';
 
 const Register = () => {
    const {signUp} = useContext(AuthContext);
@@ -27,7 +28,7 @@ const Register = () => {
       signUp(email,password)
       .then(result =>{
          console.log(result.user);
-         setSuccess("RegisterSuccess");
+         setSuccess("You have registered Successfully");
       })
       .catch(error =>{
          console.log(error.message);
@@ -89,10 +90,20 @@ const Register = () => {
                </p>
             </form>
             {
-               registerError && <h2 className='text-red-400 text-xl'>{registerError}</h2>
+               registerError && Swal.fire({
+                  icon: 'error',
+                  title: 'Oops...',
+                  text: registerError
+                })
             }
             {
-               success &&  <h2>{success}</h2>
+               success &&  Swal.fire({
+                  position: 'top-center',
+                  icon: 'success',
+                  title: success,
+                  showConfirmButton: false,
+                  timer: 1500
+               })
             }
                
          </div>

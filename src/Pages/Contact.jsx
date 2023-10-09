@@ -6,7 +6,7 @@ const Contact = () => {
    return (
       <div>
          <NavbarTop></NavbarTop>
-         <div className="contact-form text-center py-10 text-black">
+         <div className="contact-form text-center py-10 text-black px-5">
             <h1>Contact Us</h1>
             <p>We would love to hear from you. Please fill out the form below:</p>
  

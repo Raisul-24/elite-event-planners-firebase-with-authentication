@@ -4,7 +4,7 @@ const About = () => {
    return (
       <div>
          <NavbarTop></NavbarTop>
-         <div className="container mx-auto text-black py-10">
+         <div className="container mx-auto text-black py-10 px-5">
             <h2 className="text-2xl font-bold">Elite Event Planners: Crafting Unforgettable Experiences</h2>
             <p className="my-5">Elite Event Planners is a premier event planning and coordination company dedicated to curating extraordinary and unforgettable experiences for its clients. With a commitment to excellence and an unparalleled attention to detail, Elite Event Planners has earned a reputation as the go-to choice for those seeking to transform their visions into reality.</p>
             <h3 className="text-xl font-bold">Services Offered:</h3>
