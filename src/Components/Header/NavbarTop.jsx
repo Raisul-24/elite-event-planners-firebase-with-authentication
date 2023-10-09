@@ -2,6 +2,7 @@ import { Collapse } from "@material-tailwind/react";
 import { useContext, useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { AuthContext } from "../Firebase/AuthProvider";
+import Swal from "sweetalert2";
 
 
 
@@ -13,6 +14,22 @@ const NavbarTop = () => {
    const handleLogOut = () => {
       logOut()
          .then()
+      Swal.fire({
+         title: 'Are you sure?',
+         text: "You won't be able to access this!",
+         icon: 'warning',
+         showCancelButton: true,
+         confirmButtonColor: '#3085d6',
+         cancelButtonColor: '#d33',
+         confirmButtonText: 'Yes, LogOut'
+      }).then((result) => {
+         if (result.isConfirmed) {
+            Swal.fire(
+               'LogOut!',
+               'success'
+            )
+         }
+      })
    }
    const links = <>
       <li className="block p-1 text-sm  leading-normal text-inherit antialiased"><NavLink to="/">Home</NavLink></li>
@@ -35,13 +52,18 @@ const NavbarTop = () => {
                </ul>
 
                {
-                  user ? <button onClick={handleLogOut}
-                     className="middle none center hidden rounded-lg bg-gradient-to-tr from-pink-600 to-pink-400 py-2 px-4 text-xs font-bold uppercase text-white shadow-md shadow-pink-500/20 transition-all hover:shadow-lg hover:shadow-pink-500/40 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none lg:inline-block"
-                     type="button"
-                     data-ripple-light="true"
-                  >
-                     <Link to="/login">Log Out</Link>
-                  </button>
+                  user ? 
+                  <div className="flex items-center">
+                     <p className="text-xs font-medium mr-1">{user.email}</p>
+                     <button onClick={handleLogOut}
+                        className="middle none center hidden rounded-lg bg-gradient-to-tr from-pink-600 to-pink-400 py-2 px-4 text-xs font-bold uppercase text-white shadow-md shadow-pink-500/20 transition-all hover:shadow-lg hover:shadow-pink-500/40 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none lg:inline-block"
+                        type="button"
+                        data-ripple-light="true"
+                     >
+                        <Link to="/login">Log Out</Link>
+                     </button>
+
+                  </div>
                      :
                      <button
                         className="middle none center hidden rounded-lg bg-gradient-to-tr from-pink-600 to-pink-400 py-2 px-4 text-xs font-bold uppercase text-white shadow-md shadow-pink-500/20 transition-all hover:shadow-lg hover:shadow-pink-500/40 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none lg:inline-block"
@@ -95,9 +117,11 @@ const NavbarTop = () => {
                      {links}
                      <li>
                         {
-                           user ? <button onClick={handleLogOut}>
+                           user ? <div className="">
+                              <button onClick={handleLogOut}>
                               <Link to="">Log Out</Link>
                            </button>
+                           </div>
                               :
                               <button>
                                  <Link to="/login">Log In</Link>

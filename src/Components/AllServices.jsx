@@ -24,22 +24,22 @@ const AllServices = () => {
                data-aos-duration="2000">
                <h2 className="text-4xl text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% text-center font-extrabold">Our Services</h2>
             </div>
-         <div className="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-4 gap-6">
+         <div className="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-4 gap-6 p-4 md:p-0">
                <div>
                   <h2 className="text-3xl text-left font-extrabold text-fuchsia-500 pt-10">We Provide</h2>
-                  <h3 className="md:text-lg lg:text-2xl font-bold text-purple-500 my-20" data-aos="fade-up"
+                  <h3 className="md:text-lg lg:text-2xl font-bold text-purple-500 my-8 md:my-20" data-aos="fade-up"
                      data-aos-duration="1000">Wedding</h3>
-                  <h3 className="md:text-lg lg:text-2xl font-bold text-purple-500 my-20" data-aos="fade-up"
+                  <h3 className="md:text-lg lg:text-2xl font-bold text-purple-500 my-8 md:my-20" data-aos="fade-up"
                      data-aos-duration="1000">Birthday Parties</h3>
-                  <h3 className="md:text-lg lg:text-2xl font-bold text-purple-500 my-20" data-aos="fade-up"
+                  <h3 className="md:text-lg lg:text-2xl font-bold text-purple-500 my-8 md:my-20" data-aos="fade-up"
                      data-aos-duration="1000">Anniversaries</h3>
-                  <h3 className="md:text-lg lg:text-2xl font-bold text-purple-500 my-20" data-aos="fade-up"
+                  <h3 className="md:text-lg lg:text-2xl font-bold text-purple-500 my-8 md:my-20" data-aos="fade-up"
                      data-aos-duration="1000">Engagement Parties</h3>
-                  <h3 className="md:text-lg lg:text-2xl font-bold text-purple-500 my-20" data-aos="fade-up"
+                  <h3 className="md:text-lg lg:text-2xl font-bold text-purple-500 my-8 md:my-20" data-aos="fade-up"
                      data-aos-anchor-placement="center-bottom">Retirement Parties</h3>
-                  <h3 className="md:text-lg lg:text-2xl font-bold text-purple-500 my-20" data-aos="fade-up"
+                  <h3 className="md:text-lg lg:text-2xl font-bold text-purple-500 my-8 md:my-20" data-aos="fade-up"
                      data-aos-duration="1000">Baby Showers</h3>
-                  <h3 className="md:text-lg lg:text-2xl font-bold text-purple-500 my-20" data-aos="fade-up"
+                  <h3 className="md:text-lg lg:text-2xl font-bold text-purple-500 my-8 md:my-20" data-aos="fade-up"
                      data-aos-duration="1000">Any Event We can arrange</h3>
                </div>
                <div className="md:col-span-3 lg:col-span-3">
