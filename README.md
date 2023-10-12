@@ -1,5 +1,3 @@
-# React + Vite
-# b8a9-event-management-Raisul-24
 # EliteEvent Planners
 
 
