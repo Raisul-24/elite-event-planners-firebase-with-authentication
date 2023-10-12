@@ -28,8 +28,10 @@ const Login = () => {
 
 
    const handleGoogleSignIn = () => {
+      // e.preventDefault()
       // console.log("login")
-      googleSignIn().then(result => {
+      googleSignIn()
+      .then(result => {
          console.log(result.user);
          Swal.fire({
             position: 'top-center',

@@ -17,4 +17,4 @@ I use Json file to get data and show images, all kinds of relative information f
 5. AOS:
 I use Aos for creating animation for displaying data on homepage.
 6. Marquee:
-Use React Marquee for showing data as like slider.
+Use React Marquee for showing data as like slider.# elite-event-planners-firebase-with-authentication
